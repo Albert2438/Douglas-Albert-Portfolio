@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Douglas Albert — Full Stack Web Developer</title>
+<meta name="description" content="Portfolio of Douglas Albert Taghalaziba, a full stack web developer working with React, Next.js, Node.js and MongoDB.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">DA<span class="logo-dot">.</span></a>
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow-plain">Full stack web developer</p>
+        <h1>Douglas Albert<br>Taghalaziba</h1>
+        <p class="hero-lede">I build reliable, CRUD-driven web applications and REST APIs with React, Next.js, Node.js and MongoDB — with an eye for interfaces that feel good to use, not just ones that work.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <dl class="hero-facts">
+          <div>
+            <dt>Based in</dt>
+            <dd>Nigeria</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>MERN &amp; Next.js</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd>Open to work</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-editor" aria-hidden="true">
+        <div class="editor-titlebar">
+          <span class="editor-dot"></span>
+          <span class="editor-dot"></span>
+          <span class="editor-dot"></span>
+          <span class="editor-filename">developer.js</span>
+        </div>
+        <pre class="editor-body"><code><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {
+  <span class="tok-key">name</span>: <span class="tok-str">"Douglas Albert"</span>,
+  <span class="tok-key">role</span>: <span class="tok-str">"Full Stack Web Developer"</span>,
+  <span class="tok-key">stack</span>: [<span class="tok-str">"React"</span>, <span class="tok-str">"Next.js"</span>, <span class="tok-str">"Node.js"</span>, <span class="tok-str">"MongoDB"</span>],
+  <span class="tok-key">basedIn</span>: <span class="tok-str">"Nigeria"</span>,
+  <span class="tok-key">status</span>: <span class="tok-str">"open to work"</span>,
+};
+
+<span class="tok-comment">// thanks for stopping by</span>
+<span class="tok-var">developer</span>.<span class="tok-fn">sayHi</span>();</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Work</h2>
+        <p class="section-note">A handful of projects from building out the MERN stack, end to end.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card project-card--feature">
+          <div class="project-meta">
+            <span class="dot dot-js"></span>
+            <span class="project-lang">JavaScript · MERN</span>
+          </div>
+          <h3>Event Management System</h3>
+          <p>A CRUD web application for creating, editing and managing events, with full JWT-based authentication — login, signup, logout, a protected navbar and route guards so only signed-in users can manage their own events.</p>
+          <ul class="project-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>JWT Auth</li>
+          </ul>
+        </article>
+
+        <article class="project-card project-card--feature">
+          <div class="project-meta">
+            <span class="dot dot-js"></span>
+            <span class="project-lang">JavaScript · MERN</span>
+          </div>
+          <h3>Workout MERN App</h3>
+          <p>A workout tracking application with user authentication and full CRUD functionality, letting users log, edit and remove their own workouts from a private dashboard.</p>
+          <ul class="project-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="dot dot-ts"></span>
+            <span class="project-lang">Next.js</span>
+          </div>
+          <h3>Ticket System</h3>
+          <p>A Next.js application built on the App Router, handling dynamic routes and data fetching for individual ticket records.</p>
+          <ul class="project-tags">
+            <li>Next.js</li>
+            <li>App Router</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="dot dot-css"></span>
+            <span class="project-lang">HTML · CSS · JS</span>
+          </div>
+          <h3>Anime Clone Website</h3>
+          <p>A responsive front-end build focused on layout and cross-device consistency, recreating an anime-streaming style homepage.</p>
+          <ul class="project-tags">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="project-card project-card--wip">
+          <div class="project-meta">
+            <span class="dot dot-wip"></span>
+            <span class="project-lang">In progress</span>
+          </div>
+          <h3>Anime Vote Board</h3>
+          <p>An anime-themed voting board built with the MERN stack and Next.js, currently in active development.</p>
+          <ul class="project-tags">
+            <li>Next.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Stack</h2>
+        <p class="section-note">What I reach for day to day, grouped the way a project's dependencies would be.</p>
+      </div>
+
+      <div class="stack-panel">
+        <div class="stack-panel-titlebar">
+          <span class="editor-filename">package.json</span>
+        </div>
+        <div class="stack-groups">
+
+          <div class="stack-group">
+            <h3>Frontend</h3>
+            <ul class="tag-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React.js</li>
+              <li>Next.js (App Router)</li>
+              <li>Tailwind CSS</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+
+          <div class="stack-group">
+            <h3>Backend</h3>
+            <ul class="tag-list">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>REST APIs</li>
+              <li>CRUD design</li>
+            </ul>
+          </div>
+
+          <div class="stack-group">
+            <h3>Databases</h3>
+            <ul class="tag-list">
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+
+          <div class="stack-group">
+            <h3>Authentication</h3>
+            <ul class="tag-list">
+              <li>JWT tokens</li>
+              <li>Protected routes</li>
+              <li>Token handling</li>
+            </ul>
+          </div>
+
+          <div class="stack-group">
+            <h3>Tools</h3>
+            <ul class="tag-list">
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>npm</li>
+              <li>Vercel</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-inner about-inner">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about-body">
+        <p>I'm a junior full stack developer based in Nigeria, focused on building web applications that hold up in practice — authentication that's actually secure, APIs that are easy to reason about, and interfaces that don't get in the user's way.</p>
+        <p>I graduated with a B.Sc. in Software Engineering from Babcock University (2021–2024), and most of what I've built since has come from taking on real CRUD applications end to end: designing the schema, wiring up the API, and getting the auth flow right before touching a single line of UI.</p>
+        <p>Outside of client work, I run <strong>ZeroX</strong>, a YouTube channel covering anime and games — which is probably why I care more than most junior devs about whether an interface actually feels good to use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-dark">
+    <div class="section-inner contact-inner">
+      <h2>Let's build something.</h2>
+      <p class="contact-lede">Open to junior full stack roles and freelance MERN / Next.js projects.</p>
+      <div class="contact-links">
+        <a href="mailto:albertdouglas038@gmail.com" class="btn btn-primary">albertdouglas038@gmail.com</a>
+      </div>
+      <ul class="social-list">
+        <li><a href="https://github.com/Albert2438" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="www.linkedin.com/in/albert-douglas-510532246" target="_blank" rel="noopener noreferrer" data-placeholder="linkedin">LinkedIn</a></li>
+        <li><a href="tel:+2348052989017">+234 805 298 9017</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Douglas Albert Taghalaziba. Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
