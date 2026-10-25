@@ -87,81 +87,85 @@
         <h2>Work</h2>
         <p class="section-note">A handful of projects from building out the MERN stack, end to end.</p>
       </div>
+<div class="project-grid">
 
-      <div class="project-grid">
+  <!-- Event manager: your own build, so it keeps the amber "feature" border -->
+  <article class="project-card project-card--feature">
+    <div class="project-meta">
+      <span class="dot dot-js"></span>
+      <span class="project-lang">JavaScript · MERN</span>
+    </div>
+    <h3>Event Management System</h3>
+    <p>A CRUD web application for creating, editing and managing events, with full JWT-based authentication — login, signup, logout, a protected navbar and route guards so only signed-in users can manage their own events.</p>
+    <ul class="project-tags">
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>MongoDB</li>
+      <li>JWT Auth</li>
+    </ul>
+    <!-- NEW: link row. target="_blank" opens in a new tab; rel stops the new page from controlling yours -->
+    <div class="project-links">
+      <a class="project-link" href="https://mern-eventmanager.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
 
-        <article class="project-card project-card--feature">
-          <div class="project-meta">
-            <span class="dot dot-js"></span>
-            <span class="project-lang">JavaScript · MERN</span>
-          </div>
-          <h3>Event Management System</h3>
-          <p>A CRUD web application for creating, editing and managing events, with full JWT-based authentication — login, signup, logout, a protected navbar and route guards so only signed-in users can manage their own events.</p>
-          <ul class="project-tags">
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>JWT Auth</li>
-          </ul>
-        </article>
+  <article class="project-card project-card--feature">
+    <div class="project-meta">
+      <span class="dot dot-js"></span>
+      <span class="project-lang">JavaScript · MERN</span>
+    </div>
+    <h3>Workout MERN App</h3>
+    <p>A workout tracking application with user authentication and full CRUD functionality, letting users log, edit and remove their own workouts from a private dashboard.</p>
+    <ul class="project-tags">
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>MongoDB</li>
+    </ul>
+    <div class="project-links">
+      <a class="project-link" href="https://mern-workout-app-five.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
 
-        <article class="project-card project-card--feature">
-          <div class="project-meta">
-            <span class="dot dot-js"></span>
-            <span class="project-lang">JavaScript · MERN</span>
-          </div>
-          <h3>Workout MERN App</h3>
-          <p>A workout tracking application with user authentication and full CRUD functionality, letting users log, edit and remove their own workouts from a private dashboard.</p>
-          <ul class="project-tags">
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-          </ul>
-        </article>
+  <!-- Averixa: no --feature class, so it gets the teal border (marks non-personal projects) -->
+  <article class="project-card">
+    <div class="project-meta">
+      <span class="dot dot-css"></span>
+      <span class="project-lang">Website</span>
+    </div>
+    <h3>Averixa Digital</h3>
+    <p>Website for a digital growth agency that helps brands spot what's holding them back online, then builds the content and strategy to fix it. I helped with the home and portfolio pages.</p>
+    <ul class="project-tags">
+      <li>React</li>
+      <li>Tailwind</li>
+      <li>Agency site</li>
+      <li>Responsive</li>
+    </ul>
+    <div class="project-links">
+      <a class="project-link" href="https://www.averixadigital.com/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span class="dot dot-ts"></span>
-            <span class="project-lang">Next.js</span>
-          </div>
-          <h3>Ticket System</h3>
-          <p>A Next.js application built on the App Router, handling dynamic routes and data fetching for individual ticket records.</p>
-          <ul class="project-tags">
-            <li>Next.js</li>
-            <li>App Router</li>
-          </ul>
-        </article>
+  <!-- CheckAm: team project, so the card says what your part was -->
+  <article class="project-card">
+    <div class="project-meta">
+      <span class="dot dot-ts"></span>
+      <span class="project-lang">Next.js · Team project</span>
+    </div>
+    <h3>CheckAm</h3>
+    <p>A mobile-first app that lets people check a drug pack against NAFDAC's records with one photo. Built with a team; I built the Home page, the How It Works sections and the error screens.</p>
+    <ul class="project-tags">
+      <li>Next.js</li>
+      <li>TypeScript</li>
+      <li>Tailwind CSS</li>
+    </ul>
+    <div class="project-links">
+      <a class="project-link" href="https://checkam-lemon.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span class="dot dot-css"></span>
-            <span class="project-lang">HTML · CSS · JS</span>
-          </div>
-          <h3>Anime Clone Website</h3>
-          <p>A responsive front-end build focused on layout and cross-device consistency, recreating an anime-streaming style homepage.</p>
-          <ul class="project-tags">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-          </ul>
-        </article>
-
-        <article class="project-card project-card--wip">
-          <div class="project-meta">
-            <span class="dot dot-wip"></span>
-            <span class="project-lang">In progress</span>
-          </div>
-          <h3>Anime Vote Board</h3>
-          <p>An anime-themed voting board built with the MERN stack and Next.js, currently in active development.</p>
-          <ul class="project-tags">
-            <li>Next.js</li>
-            <li>MongoDB</li>
-          </ul>
-        </article>
-
-      </div>
+</div>
     </div>
   </section>
 
